@@ -31,7 +31,7 @@ Using the dataset's `Student_Flag` as per-point ground truth:
 - **Normal accuracy = TN / N:** **85.34%**  
 - **Anomaly accuracy = TP / P:** **75.36%**
 
-**Target satisfaction:** Normal ≥ 80% ✅, Anomaly ≥ 75% ✅
+**Target satisfaction:** Normal ≥ 80% , Anomaly ≥ 75% 
 
 > Note: The assignment mentions “77 anomaly events total.” The provided CSV includes a per-point label `Student_Flag` with 141 positives across the full series. I treat `Student_Flag` as ground-truth for evaluation, which may mark multiple points within a single event. This aligns with per-sample scoring required for TP/FP/FN/TN.
 
